@@ -1,0 +1,516 @@
+fileFormatVersion: 2
+guid: 6ddf86f3764f4f0479cb7349df5f3b13
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ALEMB\xDCY\xDCK"
+    second: {fileID: 2100000, guid: 224f3906da733514996ecbac4e546d36, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ARALAR
+    second: {fileID: 2100000, guid: 78a1ab240c4be0d42bd178ffaec1aecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ARALAR1
+    second: {fileID: 2100000, guid: 2528eee5fef89d84e9f14e04fb7c1c91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ARALAR2
+    second: {fileID: 2100000, guid: 77e54115f66c67f4286f4523cc513990, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAMI DUVARI #1
+    second: {fileID: 2100000, guid: 3f1aef4f809f780459041d0da74d9541, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CAMI DUVARI_
+    second: {fileID: 2100000, guid: f99904d2fd5da674fa820ff5a9c158c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: e1579b0499c75bc4d99200f3d4171b4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KUBBE1#1
+    second: {fileID: 2100000, guid: 9828218ac7ef08243a5df22c934eff5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIM
+    second: {fileID: 2100000, guid: 3f4ac9984674bea40bfe5267277a1318, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIM1
+    second: {fileID: 2100000, guid: 06b4be3b3b413934991bc263e4eab954, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIMARKA
+    second: {fileID: 2100000, guid: 09a8f497c737b044694a4c984022cd3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u0130"
+    second: {fileID: 2100000, guid: 5c41db7ebe5ddbe4b92ccb4cdecd58fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u01301"
+    second: {fileID: 2100000, guid: 6cccc98ac5580894cacd1e59345bd9d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u01302"
+    second: {fileID: 2100000, guid: f63a17b65619b4c47a66419b019ae81d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material 35
+    second: {fileID: 2100000, guid: bd943c803cc17de49aaa691be05e58a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130RARE TABANI#1"
+    second: {fileID: 2100000, guid: 3434922d854176d4496221d6a3e3fa0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130RARE TABANI1"
+    second: {fileID: 2100000, guid: 0651a5e7b72263d44a5e657bbc2ac878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SONCEMAT YAN
+    second: {fileID: 2100000, guid: 33a37213308c8cd47b3ec4a5f9bcff2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_002]'
+    second: {fileID: 2100000, guid: f921bbf2fe31046448f64ce4f5b705cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A01]'
+    second: {fileID: 2100000, guid: 466cf6445376cf343958c51e1cdf57b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal_Seamed]'
+    second: {fileID: 2100000, guid: 6f273060f290ef14eb0c44f1a4f86866, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _1
+    second: {fileID: 2100000, guid: 564835d886410684fb9ad8ee61e53459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _10
+    second: {fileID: 2100000, guid: 66b0ef38f109d474ba171a6e2895cfab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _11
+    second: {fileID: 2100000, guid: cf08f36592165824c9c21fdd01483a03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _12
+    second: {fileID: 2100000, guid: 4c8848107aa1e394ab95a7188f0a2676, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _16
+    second: {fileID: 2100000, guid: 7b9c346c5b1dbac47a5496928d83b201, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _17
+    second: {fileID: 2100000, guid: dcd23b8629e6bed49913c850c3770f44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _2
+    second: {fileID: 2100000, guid: 43c8fac8f9873874ba0e75b74cacdb08, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _3
+    second: {fileID: 2100000, guid: 1f7927904b23c2e49b0db2e8dc98efc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _4
+    second: {fileID: 2100000, guid: 7bb541e625e728a4b8202da32c3cf6e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _5
+    second: {fileID: 2100000, guid: 65e2325ff6c96824b8be661806c1afc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _6
+    second: {fileID: 2100000, guid: 2a74f76bad624764ab0ef028d55aaf46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _LightGray_
+    second: {fileID: 2100000, guid: b9faaed50cd5e4a4fb8cac3222596c90, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 553efc4e91d23e44a906f19ea80763f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: black
+    second: {fileID: 2100000, guid: d78cc45c40d645c4ab5ad89c1aa43485, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: son cemaat arka#1
+    second: {fileID: 2100000, guid: cf96145a4de151244877f70d653233ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: son cemaat arka1
+    second: {fileID: 2100000, guid: 752a178d23e368846895e1229fff7d1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: son cemaat2
+    second: {fileID: 2100000, guid: ed435791955e9ee47bfcf9ad9e98be54, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN"
+    second: {fileID: 2100000, guid: 72ddf8d110665984ba85e77da686ca31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN1"
+    second: {fileID: 2100000, guid: 7dad457a39952514c9571c4627fd04f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN2"
+    second: {fileID: 2100000, guid: a7ddeb9b88b290f48919e4003e22f35a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN3"
+    second: {fileID: 2100000, guid: 0df3e19363d2a1b488cc4b024fa5f679, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSOLYANORTA1"
+    second: {fileID: 2100000, guid: 5f5cae09a51a61147b74b3b99883bfff, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "ALEMB\xDCY\xDCK"
+    second: {fileID: 2800000, guid: b075a6c694e0f3343a2db585e58d0868, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ARALAR
+    second: {fileID: 2800000, guid: d993581ca535f1b40ab9ce0e048ce695, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ARALAR(1)
+    second: {fileID: 2800000, guid: 50b786705d6f99640b55401b586be126, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: ARALAR(2)
+    second: {fileID: 2800000, guid: 9f2e1cb383cf7614fabf3d659fcc17ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 'CAMI DUVARI '
+    second: {fileID: 2800000, guid: ba8948b019ff6104cbf658d9f08b8ad1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "CAM\u0130 DUVAR 1_tint0xC9BAABFF"
+    second: {fileID: 2800000, guid: a28995451fa4695499b91b10ee6d3aec, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "CAM\u0130 DUVAR 2"
+    second: {fileID: 2800000, guid: 243b843cc6245d84db36683dce12a9f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "CAM\u0130 DUVAR 3"
+    second: {fileID: 2800000, guid: 747a72d2e7ceb264e89f9f77a793008d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DUVAR 4
+    second: {fileID: 2800000, guid: 38c0f843c51554c45822f02c3f1d5a53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "E__Resim_\u0130maret Camii_KUBBECEVRES\u0130"
+    second: {fileID: 2800000, guid: 1c98541daeb93944989e04fd409dc1e9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: 1b9ec094ff076194f843f96547643411, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBE1(1)
+    second: {fileID: 2800000, guid: 6e50a69956d48ce47b031cc10b930f6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBE1(1)_tint0x8B8F96FF
+    second: {fileID: 2800000, guid: 65d9bbd1bf73a0449905a4bd79309ccc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBE1(1)_tint0xA0A5ADFF
+    second: {fileID: 2800000, guid: fcf79fac2ec7b9c478c34b969b8323f4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIM
+    second: {fileID: 2800000, guid: 06834302440f9ef4ca1639792457fd4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIM(1)
+    second: {fileID: 2800000, guid: 4784213b939034d40896f56c32bb83a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KUBBEALTIORTAKISIMARKA
+    second: {fileID: 2800000, guid: 7022b521775d4fb44bfb8a9e0e23374e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u0130"
+    second: {fileID: 2800000, guid: 6b27cd5f7a5034245a66563b2ac7342d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u0130(1)"
+    second: {fileID: 2800000, guid: 36a73d22f129d524eab73b7582c89bd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "KUBBECEVRES\u0130(2)"
+    second: {fileID: 2800000, guid: 56d5b5651567d5547b5daf0e4c9ee57d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Seamed
+    second: {fileID: 2800000, guid: fbf56f9cb9e81bb468392d3609a27af7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130NARE CINISI"
+    second: {fileID: 2800000, guid: e35a820347fbd7442815ba6449aaa676, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130NARE SUSU 1_tint0x5E4F46FF"
+    second: {fileID: 2800000, guid: 8f58423c900a00b46bacbb792f9a0416, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130NARE SUSU 2"
+    second: {fileID: 2800000, guid: 8cd543cdd1d2f214cb3365cfb16a3540, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130RARE TABANI"
+    second: {fileID: 2800000, guid: 561236edc36717547b42576065425490, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "M\u0130RARE TABANI(1)"
+    second: {fileID: 2800000, guid: 9494640f70c8ad444b53120ec86cf054, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: SONCEMAT YAN
+    second: {fileID: 2800000, guid: d4dae1c6f2ffb6b4c99cb163b426b32a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Brushed_Khaki_tint0xBCA46FFF
+    second: {fileID: 2800000, guid: a127a14e30a37204091f9c1352a0c207, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Vein_Gray_tint0x969494FF
+    second: {fileID: 2800000, guid: 2743b6bdd5fce754295025ce22844511, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Vein_Gray_tint0xE8E6E6FF
+    second: {fileID: 2800000, guid: c2656a14e8945e74d954bb5d1b00fd86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: son cemaat
+    second: {fileID: 2800000, guid: 360daea239371b44fada30756b10f3c6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: son cemaat arka
+    second: {fileID: 2800000, guid: 3e9c2e505ed384342a3a4736bf3ae69b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN"
+    second: {fileID: 2800000, guid: ae69491ba722517438bb31fb62456c8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN(1)"
+    second: {fileID: 2800000, guid: 9dedd77ef42a7974bbcc1f6271e1e0f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN(2)"
+    second: {fileID: 2800000, guid: f8b9ff40d6bbd59478732bd265f28039, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSA\u011EARKAYAN(3)"
+    second: {fileID: 2800000, guid: a8fe1e922acd290499450a240f26222d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\u0130MARETSOLYANORTA"
+    second: {fileID: 2800000, guid: 93d0172be255ae1459c7ce7b75a7984f, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 530be7bd6b8731375f45684d1ff78220
+  fileUnit: 0

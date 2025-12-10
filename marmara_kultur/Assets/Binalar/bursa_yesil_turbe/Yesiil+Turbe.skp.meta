@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: 1dd6fe069382fc64ea8302efb4affc4d
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21062011579
+    second: {fileID: 2100000, guid: dd0f0ee37570bca4c95b4734fe687afd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21062011579#1
+    second: {fileID: 2100000, guid: 760ad9edd97e86947ad346ff7f0a148e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21062011581#1
+    second: {fileID: 2100000, guid: 93e743c59b3bbf74288a189a78d4d694, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 400_F_16176804_cdVbUYWVdhQq7ajtTfioPTBV1EMvR3Su
+    second: {fileID: 2100000, guid: 025234ca8156a444b88bc2a8d75d71ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 9088315
+    second: {fileID: 2100000, guid: d78d8ef26930b1b498f28767e7c48909, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: 022d0d5682bfd9a4db82b472eba398b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot#1
+    second: {fileID: 2100000, guid: 34ed659a0e92d8c499c15314a2775d1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0010_Snow]'
+    second: {fileID: 2100000, guid: 4a6b417574ed99f44af670664866f410, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0046_Gold]'
+    second: {fileID: 2100000, guid: b780fc70c8ecffd46a3c73cf9481714e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Brick_Pavers_Modular]'
+    second: {fileID: 2100000, guid: 7eda41c0a389d384d9e0c86e55b3527c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Stone_Masonry_Multi]'
+    second: {fileID: 2100000, guid: 4d0f87a72e058ae49922552c06ac77e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 97c4edb815bd35844b396dcd1cd97690, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dfdasfas
+    second: {fileID: 2100000, guid: 812d1e151d06dd44db88be5584049fae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dfggdfgs
+    second: {fileID: 2100000, guid: ed48424ffaeaa7a4fb0f41d81d0bc50a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dsafdasfsdafsa
+    second: {fileID: 2100000, guid: 60984602b3388334b8ebface162e537b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: dsafdsafsaf
+    second: {fileID: 2100000, guid: c3fb4b83aa4741b46a40f40a05052ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: erwwetertertert
+    second: {fileID: 2100000, guid: 36f19b4b0a8c6d349b04cb9045a2d8e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: grass_texture_by_sdwhaven-d37qp72
+    second: {fileID: 2100000, guid: 914b9384f0bde8447a2f92b5674c1a21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jlkhkljkljlkjk
+    second: {fileID: 2100000, guid: bce4b30c7bbfbde4eb8ef337275c0c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ku\u0131yo\u0131oyu\u01312"
+    second: {fileID: 2100000, guid: 42323e3b0d5db7f488e283ddb03481fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh"
+    second: {fileID: 2100000, guid: f1244b1a2a4ef5b44b787fe616d92a63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh#1"
+    second: {fileID: 2100000, guid: b1563d15c018df247a1b6eb861953375, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh#2"
+    second: {fileID: 2100000, guid: 298f9398b3926b14d8ff0477ee6fc338, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh#3"
+    second: {fileID: 2100000, guid: 01849d3d05837e04b842434617ca8d19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh#4"
+    second: {fileID: 2100000, guid: 522440eef8795014bb835f42188c7b65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mermer_rapsody_buyuk
+    second: {fileID: 2100000, guid: 25a3877596936374f8474b994ee910fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mugla_beyaz_mermer
+    second: {fileID: 2100000, guid: 1028abf2ac83c06479abc7595a5357f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\xF6\u015Fi\u015F\u015Fl"
+    second: {fileID: 2100000, guid: 34b28570d45a7ff42af30df874c7e96d, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 21062011579
+    second: {fileID: 2800000, guid: a26f673d388e6eb4a971f2524d1bbc8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 21062011579_tint0x89A8ABFF
+    second: {fileID: 2800000, guid: 94c9b8e89d6af5b4787bfc5759c8f72f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 21062011581
+    second: {fileID: 2800000, guid: 9edb449223fb6ca41b0d31f9df906449, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 400_F_16176804_cdVbUYWVdhQq7ajtTfioPTBV1EMvR3Su
+    second: {fileID: 2800000, guid: 4eb53739076f26d4d907c364043b77fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 9088315
+    second: {fileID: 2800000, guid: eed0358bd3d64da41803c0b84ba95780, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brick_Pavers_Modular_tint0x95938FFF
+    second: {fileID: 2800000, guid: acaa4bd76f269ce4c894d694785b7a53, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: e3e1e2b2d8a0bb541a9ace831e520910, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Stone_Masonry_Multi_tint0xBAB7A4FF
+    second: {fileID: 2800000, guid: a3a6bec945812db40ac666011eb01cbb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dfdasfas
+    second: {fileID: 2800000, guid: 06c5a8a8feec56a4ca9a720d23d822d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dfggdfgs_tint0xAEADB2FF
+    second: {fileID: 2800000, guid: edb8e2a2c843afc4a8cd467c78fd204d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dsafdasfsdafsa
+    second: {fileID: 2800000, guid: 14aaf34181ae820439ff365c60637a2a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: dsafdsafsaf
+    second: {fileID: 2800000, guid: 0a7e70bd83792af409d5889d38e7f330, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: erwwetertertert
+    second: {fileID: 2800000, guid: 9d8c038f8604fc44fa62353263c690f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: grass_texture_by_sdwhaven-d37qp72
+    second: {fileID: 2800000, guid: b5fa939b988bfc746af699a98aee75c1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: jlkhkljkljlkjk
+    second: {fileID: 2800000, guid: 934d65a41f269424e8e810fed87df262, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "ku\u0131yo\u0131oyu\u0131"
+    second: {fileID: 2800000, guid: 12afaff213de1c745b6eae7a022c2d1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "ljhgyhgkjl\u015Flhkjfgjh"
+    second: {fileID: 2800000, guid: 99bcf0078daa5d647b106ffe20cd4761, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mermer_rapsody_buyuk
+    second: {fileID: 2800000, guid: 7a7b809daf01a084b99c77c9f5dc829a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: mugla_beyaz_mermer
+    second: {fileID: 2800000, guid: 4475d1150a537d647913248df9262bbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\xF6\u015Fi\u015F\u015Fl"
+    second: {fileID: 2800000, guid: 495b6288e3764be4b9b37267191bdc5d, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 93ace7d82194f7df88e3bba7e3725de1
+  fileUnit: 0

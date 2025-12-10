@@ -1,0 +1,25 @@
+sahne_adi,bina_adi,prefab,csv_dosya
+bilecik,Bilecik Saat Kulesi,bilecik_saat_kulesi,bilecik_saat_kulesi.csv
+bosna,Sokollu Mehmed Paşa Köpr ,bosna_sokullu_mehmed_pasa_koprusu,bosna_sokullu_mehmed_pasa_koprusu.csv
+bursa,Bursa Ulu Camii,bursa_ulu_camii,bursa_ulu_camii.csv
+bursa,Yeşil Tür,bursa_yesil_turbe,bursa_yesil_turbe.csv
+canakkale,Çimenlik Kalesi,canakkale_cimenlik_kalesi,canakkale_cimenlik_kalesi.csv
+canakkale,Kilitbahir Kalesi,canakkale_kilitbahir,canakkale_kilitbahir.csv
+istanbul,Dolmabahçe Saray,dolmabahce_sarayi,dolmabahce_sarayi.csv
+istanbul,Galata Kulesi,istanbul_galata_kulesi,istanbul_galata_kulesi.csv
+istanbul,Süleymaniye Cami,istanbul_suleymaniye_camii,istanbul_suleymaniye_camii.csv
+istanbul,Sultanahmet Camii,istanbul_sultan_ahmet_camii,istanbul_sultan_ahmet_camii.csv
+istanbul,Topkapı Saray,istanbul_topkapi,istanbul_topkapi.csv
+istanbul,Rüstem Paşa Cam,rustem_pasa_camii_hze,rustem_pasa_camii_hze.csv
+kirklareli,Hızırbey Cam,hizrbey_cami_hze,hizrbey_cami_hze.csv
+kirklareli,Pınarhisar Kales,pinarhisar_kalesi,pinarhisar_kalesi.csv
+kocaeli,Selim Sırrı Paşa Kon,selim_sirri_pasa_konagi,selim_sirri_pasa_konagi.csv
+kocaeli,Hereke Kalesi,hereke_kalesi,hereke_kalesi.csv
+kocaeli,Fevziye Camii,izmit_fevziye_camii,izmit_fevziye_camii.csv
+kocaeli,İzmit Saat Kulesi,izmit_saat_kulesi,izmit_saat_kulesi.csv
+kocaeli,Yeni Cuma Camii,izmit_yenicumacamii,izmit_yenicumacamii.csv
+kocaeli,Portakal Hafız Konağı ,portakal_hafiz_konagi,portakal_hafiz_konagi.csv
+kocaeli,Saatçi Ali Efendi Kona ,saatci_ali_efendi_konagi,saatci_ali_efendi_konagi.csv
+edirne,selimiye camii,edirne_selimiye,edirne_selimiye.csv
+bosna,Karagözbey Cami,bosna_karag_z_bey_camisi,bosna_karag_z_bey_camisi.csv
+balikesir,Zağnos Paşa Cam,zagnas_pasacami_hze,zagnas_pasacami_hze.csv
