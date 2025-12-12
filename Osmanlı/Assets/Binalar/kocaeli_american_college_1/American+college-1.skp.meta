@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: d6b3e05f574a6cf4cb4e95415115fa06
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Brick Antique 01]'
+    second: {fileID: 2100000, guid: 8d893d908a65b8b46853088ecdc58550, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color A08]'
+    second: {fileID: 2100000, guid: b0f155b312615dc4b9a46c56767c0996, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color B08]'
+    second: {fileID: 2100000, guid: 3cb2714d4b2f5b943a89bfcd0764d5b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete Aggregate Smoke]'
+    second: {fileID: 2100000, guid: 94c5652f4c1a5cf4b92ce80f4ccd67c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Marble Carrara Floor Tile]'
+    second: {fileID: 2100000, guid: 2233ca36706205a4e98c262c22a55b45, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Modern Siding]'
+    second: {fileID: 2100000, guid: d1971fba79ac666499e4e6e2fc2111a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Polished Concrete New]'
+    second: {fileID: 2100000, guid: b9f782838f28fda4da942912a1022714, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing Shingles GAF Estates]'
+    second: {fileID: 2100000, guid: ca8f3d648e536d34ba4b42a3264c3cfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing Tile Spanish]'
+    second: {fileID: 2100000, guid: 2c2c8a0bdb1d28b4496252e55ed69cfc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Tile Ceramic Multi]'
+    second: {fileID: 2100000, guid: a6257edc35f6f86468c33c30d88f2614, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Tile Checker BW]'
+    second: {fileID: 2100000, guid: c8f1ed2a5573ff34e9b6e3107e28ba39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 5e6f03d2a28d6614ea8966d3337c270b, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Brick_Antique
+    second: {fileID: 2800000, guid: 3fb5ee11f3bdc63429d3e8125924b131, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke
+    second: {fileID: 2800000, guid: 05f1b8e8900529648af5d5c03371d50d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Marble Carrera Floor Tile
+    second: {fileID: 2800000, guid: ba113603b653af34a9457a5e7da7b65c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Modern Siding
+    second: {fileID: 2800000, guid: 4c49f944296cee14b9c65a877daef716, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Polished Concrete New
+    second: {fileID: 2800000, guid: 457ca3ad9397bbf4abc1c9000c76a300, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Shingles_GAF_Estates
+    second: {fileID: 2800000, guid: eae96e56df53a024c9038c3cedbae092, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Tile_Spanish
+    second: {fileID: 2800000, guid: ccbbcb5d3e4db5b46aeedddb67eb0b97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tile_Ceramic_Multi
+    second: {fileID: 2800000, guid: 4170a8f0ba1b2464aad76b19df31bf0d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Tile_Checker_BW
+    second: {fileID: 2800000, guid: 6a86b6d06a25bf749a0f18075458a114, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 9221bc1733d9099a7f2731ac6920ee6a
+  fileUnit: 0

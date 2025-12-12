@@ -1,25 +1,21 @@
-sahne_adi,bina_adi,prefab,csv_dosya
-bilecik,Bilecik Saat Kulesi,bilecik_saat_kulesi,bilecik_saat_kulesi.csv
-bosna,Sokollu Mehmed Paşa Köpr ,bosna_sokullu_mehmed_pasa_koprusu,bosna_sokullu_mehmed_pasa_koprusu.csv
-bursa,Bursa Ulu Camii,bursa_ulu_camii,bursa_ulu_camii.csv
-bursa,Yeşil Tür,bursa_yesil_turbe,bursa_yesil_turbe.csv
-canakkale,Çimenlik Kalesi,canakkale_cimenlik_kalesi,canakkale_cimenlik_kalesi.csv
-canakkale,Kilitbahir Kalesi,canakkale_kilitbahir,canakkale_kilitbahir.csv
-istanbul,Dolmabahçe Saray,dolmabahce_sarayi,dolmabahce_sarayi.csv
-istanbul,Galata Kulesi,istanbul_galata_kulesi,istanbul_galata_kulesi.csv
-istanbul,Süleymaniye Cami,istanbul_suleymaniye_camii,istanbul_suleymaniye_camii.csv
-istanbul,Sultanahmet Camii,istanbul_sultan_ahmet_camii,istanbul_sultan_ahmet_camii.csv
-istanbul,Topkapı Saray,istanbul_topkapi,istanbul_topkapi.csv
-istanbul,Rüstem Paşa Cam,rustem_pasa_camii_hze,rustem_pasa_camii_hze.csv
-kirklareli,Hızırbey Cam,hizrbey_cami_hze,hizrbey_cami_hze.csv
-kirklareli,Pınarhisar Kales,pinarhisar_kalesi,pinarhisar_kalesi.csv
-kocaeli,Selim Sırrı Paşa Kon,selim_sirri_pasa_konagi,selim_sirri_pasa_konagi.csv
-kocaeli,Hereke Kalesi,hereke_kalesi,hereke_kalesi.csv
-kocaeli,Fevziye Camii,izmit_fevziye_camii,izmit_fevziye_camii.csv
-kocaeli,İzmit Saat Kulesi,izmit_saat_kulesi,izmit_saat_kulesi.csv
-kocaeli,Yeni Cuma Camii,izmit_yenicumacamii,izmit_yenicumacamii.csv
-kocaeli,Portakal Hafız Konağı ,portakal_hafiz_konagi,portakal_hafiz_konagi.csv
-kocaeli,Saatçi Ali Efendi Kona ,saatci_ali_efendi_konagi,saatci_ali_efendi_konagi.csv
-edirne,selimiye camii,edirne_selimiye,edirne_selimiye.csv
-bosna,Karagözbey Cami,bosna_karag_z_bey_camisi,bosna_karag_z_bey_camisi.csv
-balikesir,Zağnos Paşa Cam,zagnas_pasacami_hze,zagnas_pasacami_hze.csv
+sahne_adi;bina_adi;prefab;csv_dosya;realX;realZ;olcek;konum
+afyon;Gedik Ahmet Paşa İmareti;afyon_gedik_ahmet_pa_a_imaret_camii;afyon_gedik_ahmet_pa_a_imaret_camii.csv;38.7534313;30.5378906;15.125;38.7534313,30.5378906,17z
+balikesir;Zağnos Paşa Camii;zagnas_pasacami_hze;zagnas_pasacami_hze.csv;39.6487648;27.8773484;17;39.6487648,27.8773484,17z
+bilecik;Bilecik Saat Kulesi;bilecik_saat_kulesi;bilecik_saat_kulesi.csv;40.1377985;29.980907;13.875;40.1377985,29.980907,17z
+bosna;Sokollu Mehmed Paşa Köprüsü;bosna_sokullu_mehmed_pasa_koprusu;bosna_sokullu_mehmed_pasa_koprusu.csv;43.7823201;19.2855274;14.29167;43.7823201,19.2855274,17z
+bursa;Yeşil Türbe;bursa_yesil_turbe;bursa_yesil_turbe.csv;40.1814003;29.072308;17;40.1814003,29.072308,17z
+canakkale;Çimenlik Kalesi;canakkale_cimenlik_kalesi;canakkale_cimenlik_kalesi.csv;40.1464606;26.396631;11.375;40.1464606,26.396631,17z
+canakkale;Kilitbahir Kalesi;canakkale_kilitbahir;canakkale_kilitbahir.csv;40.1477468;26.3769219;11.375;40.1477468,26.3769219,17z
+istanbul;Galata Kulesi;istanbul_galata_kulesi;istanbul_galata_kulesi.csv;41.025573;28.9715537;13.79167;41.025573,28.9715537,17z
+istanbul;Süleymaniye Camii;istanbul_suleymaniye_camii;istanbul_suleymaniye_camii.csv;41.016051;28.9613962;13.79167;41.016051,28.9613962,17z
+istanbul;Sultanahmet Camii;istanbul_sultan_ahmet_camii;istanbul_sultan_ahmet_camii.csv;41.0054136;28.9742389;13.79167;41.0054136,28.9742389,17z
+istanbul;Topkapı Sarayı;istanbul_topkapi;istanbul_topkapi.csv;41.0115235;28.980804;17;41.0115235,28.980804,17z
+kirklareli;Hızırbey Camii;hizrbey_cami_hze;hizrbey_cami_hze.csv;41.7359262;27.2209135;10.75;41.7359262,27.2209135,17z
+kirklareli;Pınarhisar Kalesi;pinarhisar_kalesi;pinarhisar_kalesi.csv;41.6292862;27.5126182;10.75;41.6292862,27.5126182,17z
+kocaeli;Selim Sırrı Paşa Konağı;selim_sirri_pasa_konagi;selim_sirri_pasa_konagi.csv;40.7653641;29.9186915;14.29167;40.7653641,29.9186915,17z
+kocaeli;Yeni Cuma Camii;izmit_yenicumacamii;izmit_yenicumacamii.csv;40.7627089;29.9284638;14.29167;40.7627089,29.9284638,17z
+kocaeli;Portakal Hafız Konağı;portakal_hafiz_konagi;portakal_hafiz_konagi.csv;40.7671506;29.9275593;14.29167;40.7671506,29.9275593,17z
+konya;Selimiye Camii;konya_selimiye_camii;konya_selimiye_camii.csv;37.870521;32.5014162;17;37.870521,32.5014162,17z
+limasol;Köprülü Camii;limasol_koprulu_mosque;limasol_koprulu_mosque.csv;34.6744696;33.0313605;15.5;34.6744696,33.0313605,17z
+manisa;Muradiye Camii;manisa_muradiye_camii;manisa_muradiye_camii.csv;38.610549;27.4256551;17;38.610549,27.4256551,17z
+edirne;edirne_selimiye;edirne_selimiye.csv;38.610549;27.4256551;17;38.610549,27.4256551,17z

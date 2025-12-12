@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: c451019d595b2ed4989f0492b4217dd2
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "1056527_ta\u015F-duvar-doku-yak\u0131n-dizayn-arka-plan"
+    second: {fileID: 2100000, guid: bbff32ca4097c7f4096fa6e225206fbf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: d0002cdff2c55e245a0bb71b4de4c7ca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0021_DarkRed]'
+    second: {fileID: 2100000, guid: 84286d500563b5d47a68e90a09b05c4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0046_Gold]'
+    second: {fileID: 2100000, guid: 1420049d84d20d04791e80220631ffdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0056_Yellow]'
+    second: {fileID: 2100000, guid: a27f49bfad028154382471f23cb2c29a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[0128_White]'
+    second: {fileID: 2100000, guid: 84beeed2138e4704b87c45b87e76b6c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Asphalt_New]'
+    second: {fileID: 2100000, guid: f4044806f6bac7c46bda31971a8fb917, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Carpet_Plush_Charcoal]'
+    second: {fileID: 2100000, guid: c93c55928f9f21e41bd0f72dc4933e81, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_000]'
+    second: {fileID: 2100000, guid: 9317002ec3fbb7845a6ec3e16c36659e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_001]'
+    second: {fileID: 2100000, guid: 0dca572f74b250447a34c4a34a3ab11f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_002]'
+    second: {fileID: 2100000, guid: 8e0bde77fd1b84b4d8c7ccf07da07c88, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_003]'
+    second: {fileID: 2100000, guid: 32f35df964f7b6742a3101d16fcc435f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A01]'
+    second: {fileID: 2100000, guid: c2d982cc5bb528e448e862b830e169bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A01]1'
+    second: {fileID: 2100000, guid: 9c58c704e7f4954469190c4add7eb626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_B16]'
+    second: {fileID: 2100000, guid: 7e732bea52f1d5740bccec84f378f5ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_C25]'
+    second: {fileID: 2100000, guid: c18f0f9140e52b14f94bf75634f39b7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_D05]'
+    second: {fileID: 2100000, guid: 2269fd1a5d6ad0348ac718ca2285bb0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_I06]'
+    second: {fileID: 2100000, guid: 3e714e3947b0ac64bb98bcb77462413b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Concrete_Aggregate_Smoke]'
+    second: {fileID: 2100000, guid: ee74403a0832a4d4dbfc54bf6b4d72c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover_Rock_Crushed_2inch]'
+    second: {fileID: 2100000, guid: b83f809582a787c4e967181742b06edd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Metal_Aluminum_Anodized]'
+    second: {fileID: 2100000, guid: 7cb8c17dbadc5544a86daf486ef7651f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent_Glass_Blue]'
+    second: {fileID: 2100000, guid: 041a64a6f6d61b84e9acde0806cc4e47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Translucent_Glass_Blue]1'
+    second: {fileID: 2100000, guid: abfadc0e90b27e942a8419a84a314ca3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Vegetation_Juniper2]'
+    second: {fileID: 2100000, guid: 76fb898cdf050f243a291fb3bf421316, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood_Bamboo_Medium]'
+    second: {fileID: 2100000, guid: 7d96a905eaa19144aa4ba8ec84766158, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood_Cherry_Original]'
+    second: {fileID: 2100000, guid: b446352a488c3f446840974ea009b742, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Wood_OSB]'
+    second: {fileID: 2100000, guid: faec8382aad9a7245961987e076f62c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 120c321a70b97e24c9466dae028be6bf, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "1056527_ta\u015F-duvar-doku-yak\u0131n-dizayn-arka-plan"
+    second: {fileID: 2800000, guid: ff1ec09597a50f74488dcc9b05293f18, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Asphalt_New
+    second: {fileID: 2800000, guid: 0a2fba27761f1744a89e37a7359c9c51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Carpet_Plush_Charcoal_tint0x3C5757FF
+    second: {fileID: 2800000, guid: 1150381e6c502eb4a8a8ca99af62f5aa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Concrete_Aggregate_Smoke
+    second: {fileID: 2800000, guid: 0797a055c89ba7842a9793bbed363d70, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: fd1b28116b4f2444bb0918a97a251105, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Rock_Crushed_2inch
+    second: {fileID: 2800000, guid: d3ac6578578009546b63b177d470ee7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Metal_Aluminum_Anodized
+    second: {fileID: 2800000, guid: 1403e5b310cc4e24d8433b4a1c594c8f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vegetation_Juniper2
+    second: {fileID: 2800000, guid: 221ee9c0a3c6fe940bcb19e21cde9d85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Bamboo_Medium
+    second: {fileID: 2800000, guid: 39e1ff568b2777e4ebebe16c3c08b67f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_Cherry_Original
+    second: {fileID: 2800000, guid: 21a26db921a41a74aa86a5e11545b6b2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wood_OSB
+    second: {fileID: 2800000, guid: 940ff823fc5373e40a86e0d54ca53f0d, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 342ce67835154baf32009661a4d40140
+  fileUnit: 0
