@@ -1,0 +1,476 @@
+fileFormatVersion: 2
+guid: 3a5b3f48642f79d4584b2b8ab13ae0fa
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 3_31
+    second: {fileID: 2100000, guid: a0f1cc3f82e773147be362dd2885b545, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "D\u0131\u015F Duvar"
+    second: {fileID: 2100000, guid: 4b73f61aee57dbb45bf3597999daf130, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2100000, guid: 210ed3518220baf408fa940392e19fad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_005]'
+    second: {fileID: 2100000, guid: 1a2f482c5f61a9d4aafe33d85f8ded4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_009]1'
+    second: {fileID: 2100000, guid: c5d81e1bff20f894db9b3c64fc21fc73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_009]2'
+    second: {fileID: 2100000, guid: b771bfbd9ed557746a5b2a3f4d19512a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A01]'
+    second: {fileID: 2100000, guid: 25b169601e49ca6498348e0ffde6980b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A08]'
+    second: {fileID: 2100000, guid: 39381a2e8d7095f4ca258610a16da7b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_A14]'
+    second: {fileID: 2100000, guid: dfc754baae2166742968565a6de33330, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_C15]'
+    second: {fileID: 2100000, guid: 4eb7e7f7112f02640ac58a34e593ba8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_C21]'
+    second: {fileID: 2100000, guid: c3af64e7e92f3b74688c6680e12d0891, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_C23]'
+    second: {fileID: 2100000, guid: 1e1b9eea4170b8848b0d23f7ca599828, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_D06]'
+    second: {fileID: 2100000, guid: 23495bb79c7a4104581fa3309d70e905, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_D25]1'
+    second: {fileID: 2100000, guid: 1e899a88e92075048aecf826d1086d94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_E01]'
+    second: {fileID: 2100000, guid: ab09b54893e2cb74387af985326930ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_E02]'
+    second: {fileID: 2100000, guid: 43267840165f2ff46b5fc384547e4505, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_G11]'
+    second: {fileID: 2100000, guid: 6319b40ce27cc024ab3e88dabc480b78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_G24]2'
+    second: {fileID: 2100000, guid: f2d99bdb26415e646ae5ddc6f44a1d2a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_H06]'
+    second: {fileID: 2100000, guid: a927e485c2ec8394a9a67e26742e1ec1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Color_I01]'
+    second: {fileID: 2100000, guid: 114d61396caf41b4ba28c1ec7fba9a23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover_Sand_Raked]'
+    second: {fileID: 2100000, guid: 2b7cc5469dd721f4cbe4ed5f3b3921ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Groundcover_Sand_Smooth]'
+    second: {fileID: 2100000, guid: 7582acba2be3c4b41809dd8ea604cc6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _13
+    second: {fileID: 2100000, guid: 1c107a65baac74640a060d39c3ffcdbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _15
+    second: {fileID: 2100000, guid: 74f66084284273b459a5b97dfff9fe50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _17
+    second: {fileID: 2100000, guid: ce2eedaaef79b5a4fa215a1d6b3ef52d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _18
+    second: {fileID: 2100000, guid: 76906528836d6294b8e916ef410faa4b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _19
+    second: {fileID: 2100000, guid: b4c6b5c131b721145ad3bca7460cd939, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _22
+    second: {fileID: 2100000, guid: 4020f68ded726924eba35468b303eb71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _23
+    second: {fileID: 2100000, guid: 5635d8215b5481f4794f150c998cd4fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _Beige_1
+    second: {fileID: 2100000, guid: f0a04ef8b19d6104f9ccb49eecb57bac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "g\xF6vde-\xFCst-pencere"
+    second: {fileID: 2100000, guid: e3101ec480d7787439591643338492f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: jean blue
+    second: {fileID: 2100000, guid: a9d0d85862541ee49a412648f094c32d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "kap\u0131"
+    second: {fileID: 2100000, guid: 8b9ec558d48e3da43833c2957d250663, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "kap\u01311"
+    second: {fileID: 2100000, guid: 82cbd0ca1b3e4a54ea3b193ce407c612, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "kap\u01312"
+    second: {fileID: 2100000, guid: 2d3495a82d36ee145a404102ff6dd518, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lahit
+    second: {fileID: 2100000, guid: 3ec162734cc927e40988a40218a13d14, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: restoran-pencere-duvar
+    second: {fileID: 2100000, guid: c68527b68d45c284883252d14b6e46a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: yuvarlak-pencere
+    second: {fileID: 2100000, guid: 2618158abd2938143a6d46d5131693dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "\xFCst-balkon-pencere"
+    second: {fileID: 2100000, guid: 3f3ad55910c242846a5054ea2e7f0314, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: 3_31
+    second: {fileID: 2800000, guid: 28c1c8d09ab703c48a339f50c5057802, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "BALKON DEM\u0130R\u0130_tint0x000000FF"
+    second: {fileID: 2800000, guid: c20364de15ecc3f4fb8fd48e0afb7333, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "DUVA \xDCST2"
+    second: {fileID: 2800000, guid: 0501bc8c1f852a54fb6f647c3384f725, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DUVAR 2_tint0x0C0402FF
+    second: {fileID: 2800000, guid: 006482aac58b9d74084341a8c5b03f25, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: DUVAR_tint0x9A9B95FF
+    second: {fileID: 2800000, guid: 19cf495f35c793d4d9c85ac8574840a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Google Earth Snapshot
+    second: {fileID: 2800000, guid: 1c3d9e2b2e1a5e74eb53d518953612bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Sand_Raked
+    second: {fileID: 2800000, guid: 7bd8627be2fa6f949b4919556067b9fc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Groundcover_Sand_Smooth
+    second: {fileID: 2800000, guid: cf22f2cdb9971504680cdb1ad88d1ee7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "IMG_020lk\u015Fk"
+    second: {fileID: 2800000, guid: 637ee49ebbc5d284a99a2a87ea555d51, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: XXL
+    second: {fileID: 2800000, guid: a39ab0f466910c14cbc500dacf46c9ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: balkon-alt-kaide_tint0x292724FF
+    second: {fileID: 2800000, guid: e020fccd419ef2c44b57040d461aa0f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "balkon-ara-s\xFCtunlar\u0131"
+    second: {fileID: 2800000, guid: 606e6c8a4d5548640b44de65f9633aaa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: duvar 4
+    second: {fileID: 2800000, guid: 85daf13d58f87f842839d25190b32566, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: duvar-loop-3
+    second: {fileID: 2800000, guid: 7d43156e94c686c4e9df9541a5953e80, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: duvar-loop_tint0x84807DFF
+    second: {fileID: 2800000, guid: f183f8124c9be194b9fef731e5d86f59, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "g\xF6vde-tugla-serit"
+    second: {fileID: 2800000, guid: 63ea5ab0b06f22d44b2cfecdb4c6b1f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "g\xF6vde-\xFCst-pencere_tint0x493A35FF"
+    second: {fileID: 2800000, guid: b5fbbf530af0eeb46bd84b6f558081e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "kap\u0131"
+    second: {fileID: 2800000, guid: a0c89bb4b3e97d7459bf08a1b758c94b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "kap\u0131_tint0xA39775FF"
+    second: {fileID: 2800000, guid: 5b93425f77a3c5f4180b6be826ddfa4b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kenar 2_tint0x5F5F5EFF
+    second: {fileID: 2800000, guid: c23d19856d37a5b41be3e5eeea252184, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: kenar_tint0x4B4C4AFF
+    second: {fileID: 2800000, guid: ba01a4238b6a98040bc8967d817d7419, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "k\u0131rm\u0131z\u0131-tugla"
+    second: {fileID: 2800000, guid: 8e2cc2e35cfecc34ca63e894ccbc28dc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: lahit
+    second: {fileID: 2800000, guid: 0144ca4d016a1124eab97169d22b2c2d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "merdiven-\xF6n-ya\u011Fmurluk"
+    second: {fileID: 2800000, guid: 64127783a7a9c374f943ad14f970b2f3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pencere 42wghj
+    second: {fileID: 2800000, guid: 1d3d53281ecaa944cad32aca9ace9544, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: pencere 42wghj33
+    second: {fileID: 2800000, guid: fbefac069e56ec04bb41dc4787f8a40d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: qfwrf
+    second: {fileID: 2800000, guid: c5040debdcacf7044a36e1e9b4604e71, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: renk 1
+    second: {fileID: 2800000, guid: 4fc84771a95588849b23ab47ee1afb5e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: restoran-pencere-duvar
+    second: {fileID: 2800000, guid: 7d5c750cd2c2bda44a0b53675f6252d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: yuvarlak-pencere
+    second: {fileID: 2800000, guid: 87cc83e06c0a3af42bcafbfd5e83232c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\xE7at\u0131 2"
+    second: {fileID: 2800000, guid: e827887d9489ca345966adefcdd55dfa, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\xE7at\u0131_tint0x5B5B5BFF"
+    second: {fileID: 2800000, guid: b5b2a9253c43add4b80cacbc3a432fa8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: "\xFCst-balkon-pencere"
+    second: {fileID: 2800000, guid: 1d0f4c1031ca9204f8873c33acc1048b, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 00000000010000000200000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000
+  assetHash:
+    serializedVersion: 2
+    Hash: ddaeef71aeeb02adad417a5096e0856a
+  fileUnit: 0
