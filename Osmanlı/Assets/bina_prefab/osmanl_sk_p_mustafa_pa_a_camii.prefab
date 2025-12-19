@@ -53,7 +53,18 @@ PrefabInstance:
       value: osmanl_sk_p_mustafa_pa_a_camii
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1308194108265769739, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: -1922110762041283972, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: 695907824057467638, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: 1069107833572327101, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: -8254197593608532212, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: 7978394087764040012, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: 7833548525334682989, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: 5249623515774648894, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: -1528200034796585533, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: -5880018930221343792, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
+    - {fileID: -7500684856345611380, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8197dd5066d98df4b83f4945d2667918, type: 3}

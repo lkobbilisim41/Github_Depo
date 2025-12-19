@@ -53,7 +53,8 @@ PrefabInstance:
       value: bursa_yesil_turbe
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8828102218459640487, guid: 1dd6fe069382fc64ea8302efb4affc4d, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1dd6fe069382fc64ea8302efb4affc4d, type: 3}

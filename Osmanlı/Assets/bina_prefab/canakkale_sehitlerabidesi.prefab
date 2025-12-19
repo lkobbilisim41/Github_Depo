@@ -53,7 +53,8 @@ PrefabInstance:
       value: canakkale_sehitlerabidesi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8828102218459640487, guid: 4d20747e16b809a488a14338ddc962ff, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d20747e16b809a488a14338ddc962ff, type: 3}

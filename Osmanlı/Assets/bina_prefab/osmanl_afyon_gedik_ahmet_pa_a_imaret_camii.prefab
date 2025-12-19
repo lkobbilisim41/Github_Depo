@@ -53,7 +53,8 @@ PrefabInstance:
       value: osmanl_afyon_gedik_ahmet_pa_a_imaret_camii
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8828102218459640487, guid: 6ddf86f3764f4f0479cb7349df5f3b13, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ddf86f3764f4f0479cb7349df5f3b13, type: 3}
