@@ -53,7 +53,10 @@ PrefabInstance:
       value: canakkale_cimenlik_kalesi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8312980689779664928, guid: bbef3e2004f467f4b949efa41acfb747, type: 3}
+    - {fileID: 8828102218459640487, guid: bbef3e2004f467f4b949efa41acfb747, type: 3}
+    - {fileID: 1656226049559819484, guid: bbef3e2004f467f4b949efa41acfb747, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bbef3e2004f467f4b949efa41acfb747, type: 3}

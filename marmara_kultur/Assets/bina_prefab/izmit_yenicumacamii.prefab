@@ -53,7 +53,8 @@ PrefabInstance:
       value: izmit_yenicumacamii
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7833548525334682989, guid: 116d7e4c61bad954ab60ef075884d779, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 116d7e4c61bad954ab60ef075884d779, type: 3}

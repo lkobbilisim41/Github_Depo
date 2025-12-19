@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f73fb8be5400e3d40b9e26cfa4c7ef72
+guid: f8dc951a23a773e4697cb84a69ae2e5a
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -86,3 +86,11 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187052
+  packageName: Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
+  packageVersion: 1.1
+  assetPath: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_texture
+    1.tga
+  uploadId: 633845

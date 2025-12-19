@@ -53,7 +53,8 @@ PrefabInstance:
       value: istanbul_galata_kulesi
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7833548525334682989, guid: 3a5b3f48642f79d4584b2b8ab13ae0fa, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3a5b3f48642f79d4584b2b8ab13ae0fa, type: 3}

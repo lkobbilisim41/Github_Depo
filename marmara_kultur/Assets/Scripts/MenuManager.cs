@@ -7,23 +7,32 @@ using UnityEngine.UI;
 public class Menu_Manager : MonoBehaviour
 {
 
-    public void istanbul()
-    {
-        SceneManager.LoadScene("istanbul");
-    }
+
     public void balikesir()
     {
         SceneManager.LoadScene("balikesir");
     }	
+    public void bilecik()
+    {
+        SceneManager.LoadScene("bilecik");
+    }   
     public void bursa()
     {
         SceneManager.LoadScene("bursa");
-    }   
+    } 
     public void canakkale()
     {
         SceneManager.LoadScene("canakkale");
     }
-    public void kocaeli()
+    public void edirne()
+    {
+        SceneManager.LoadScene("edirne");
+    }    
+    public void istanbul()
+    {
+        SceneManager.LoadScene("istanbul");
+    }	
+	public void kocaeli()
     {
         SceneManager.LoadScene("kocaeli");
     }
@@ -43,10 +52,7 @@ public class Menu_Manager : MonoBehaviour
     {
         SceneManager.LoadScene("yalova");
     }
-    public void edirne()
-    {
-        SceneManager.LoadScene("edirne");
-    }
+
     public void ana_menu()
     {
         SceneManager.LoadScene("menu");

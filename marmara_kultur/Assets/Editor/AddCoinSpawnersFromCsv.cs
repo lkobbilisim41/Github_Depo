@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -11,8 +13,14 @@ public static class AddCoinSpawnersFromCsv
 {
     private const string MasterCsvPath = "Assets/Data/binalar_master.csv";
     private const string PrefabRootPath = "Assets/bina_prefab/";
-    private const string CoinPrefabPath = "Assets/Prefabs/sikke_prefab.prefab";
+    private const string CoinPrefabPath = "Assets/Prefabs/sikke_yeni.prefab";
     private const string StreamingPath = "Assets/StreamingAssets/";
+
+    // BuildingPlacerFromGeoEditor ile aynı mantıkta
+    private const string DataFolderRelative = "Assets/Data";
+    private const string TerrainOriginsCsvFileName = "terrain_origins.csv";
+    private const float metersPerUnityUnit = 1f;
+    private const float yOffset = 0.0f;
 
     private class BinaKaydi
     {
@@ -20,9 +28,11 @@ public static class AddCoinSpawnersFromCsv
         public string BinaAdi;
         public string PrefabName;
         public string CsvDosya;
+        public float RealX;
+        public float RealZ;
     }
 
-    [MenuItem("Tools/Binalar/Master CSV'den Bina ve CoinSpawner Ekle")]
+    [MenuItem("Tools/Binalar/Master CSV'den Bina ve CoinSpawner Ekle (Tek bina merkezde, çoklu doğru konumda)")]
     public static void Run()
     {
         // Master CSV oku
@@ -41,13 +51,13 @@ public static class AddCoinSpawnersFromCsv
             return;
         }
 
-        // Projedeki sahnelerin yolları
+        // Projedeki sahneler (Assets/Scenes altında)
         string[] sceneGuids = AssetDatabase.FindAssets("t:Scene", new[] { "Assets/Scenes" });
         var allScenePaths = sceneGuids
             .Select(g => AssetDatabase.GUIDToAssetPath(g))
             .ToList();
 
-        // kayitları sahne adına göre grupla
+        // kayıtları sahne adına göre grupla
         var groups = kayitlar.GroupBy(k => k.SahneAdi);
 
         foreach (var group in groups)
@@ -64,6 +74,42 @@ public static class AddCoinSpawnersFromCsv
             // Sahneyi aç
             Scene scene = EditorSceneManager.OpenScene(scenePath, OpenSceneMode.Single);
             Debug.Log("İşlenen sahne: " + scene.name);
+
+            // Terrain bul
+            Terrain terrain = Terrain.activeTerrain;
+            if (terrain == null)
+                terrain = UnityEngine.Object.FindObjectOfType<Terrain>();
+
+            if (terrain == null)
+            {
+                Debug.LogError("Sahnede Terrain bulunamadı: " + scene.name);
+                continue;
+            }
+
+            string activeSceneName = scene.name;
+
+            // Root obje (Binalar_<sahne>) – BuildingPlacer ile uyumlu
+            GameObject root = GetOrCreateRootObject(scene, activeSceneName);
+
+            int binaSayisi = group.Count();
+
+            // Eğer sahnede 1’den fazla bina varsa, originRealX / originRealZ gerekiyor
+            float originRealX = 0f;
+            float originRealZ = 0f;
+            bool hasOrigin = false;
+
+            if (binaSayisi > 1)
+            {
+                if (!TryGetTerrainOrigin(activeSceneName, out originRealX, out originRealZ))
+                {
+                    Debug.LogError($"AddCoinSpawnersFromCsv: '{activeSceneName}' için terrain_origins.csv içinde kayıt bulunamadı.");
+                    continue;
+                }
+                hasOrigin = true;
+            }
+
+            Vector3 terrainPos = terrain.transform.position;
+            Vector3 terrainSize = terrain.terrainData.size;
 
             foreach (var kayit in group)
             {
@@ -85,6 +131,62 @@ public static class AddCoinSpawnersFromCsv
                 }
 
                 instance.name = kayit.PrefabName;
+                instance.transform.SetParent(root.transform);
+
+                Vector3 worldPos = instance.transform.position;
+
+                if (binaSayisi == 1)
+                {
+                    // TEK BİNA: Terrain'in tam ortasına koy
+                    Vector3 centerXZ = new Vector3(
+                        terrainPos.x + terrainSize.x / 2f,
+                        0f,
+                        terrainPos.z + terrainSize.z / 2f
+                    );
+
+                    float terrainY = terrain.SampleHeight(centerXZ) + terrainPos.y + yOffset;
+                    worldPos = new Vector3(centerXZ.x, terrainY, centerXZ.z);
+                }
+                else
+                {
+                    // BİRDEN FAZLA BİNA: Gerçek koordinata göre yerleştir
+                    if (!hasOrigin)
+                    {
+                        Debug.LogError($"AddCoinSpawnersFromCsv: '{activeSceneName}' için origin yok, bina konumu atlandı: {kayit.BinaAdi}");
+                        UnityEngine.Object.DestroyImmediate(instance);
+                        continue;
+                    }
+
+                    float realX = kayit.RealX;
+                    float realZ = kayit.RealZ;
+
+                    // CSV'den koordinat parse edilemediyse 0 olabilir, onu da kontrol edelim
+                    if (Math.Abs(realX) < 0.0001f && Math.Abs(realZ) < 0.0001f)
+                    {
+                        Debug.LogWarning($"AddCoinSpawnersFromCsv: '{kayit.BinaAdi}' için realX/realZ 0 görünüyor, konumlandırma atlandı.");
+                        UnityEngine.Object.DestroyImmediate(instance);
+                        continue;
+                    }
+
+                    // Real → local (BuildingPlacerFromGeoEditor ile aynı)
+                    float offsetRealX = realX - originRealX;
+                    float offsetRealZ = realZ - originRealZ;
+
+                    float localX = offsetRealX / metersPerUnityUnit;
+                    float localZ = offsetRealZ / metersPerUnityUnit;
+
+                    worldPos = new Vector3(
+                        terrainPos.x + localX,
+                        0f,
+                        terrainPos.z + localZ
+                    );
+
+                    float terrainY = terrain.SampleHeight(worldPos) + terrainPos.y + yOffset;
+                    worldPos.y = terrainY;
+                }
+
+                // Pozisyonu uygula
+                instance.transform.position = worldPos;
 
                 // CoinSpawner ekle / varsa al
                 CoinSpawner spawner = instance.GetComponent<CoinSpawner>();
@@ -98,9 +200,9 @@ public static class AddCoinSpawnersFromCsv
                 // CSV dosyası: Assets/StreamingAssets/<csv_dosya>
                 spawner.csvFilePath = Path.Combine(StreamingPath, kayit.CsvDosya).Replace("\\", "/");
 
-                // İstersen default değerler
-                if (spawner.numberOfCoins <= 0) spawner.numberOfCoins = 20;
-                if (spawner.maxDistance  <= 0f) spawner.maxDistance  = 50f;
+                // Varsayılan değerler
+                if (spawner.numberOfCoins <= 0) spawner.numberOfCoins = 10;
+                if (spawner.maxDistance <= 0f) spawner.maxDistance = 5f;
             }
 
             EditorSceneManager.MarkSceneDirty(scene);
@@ -108,7 +210,7 @@ public static class AddCoinSpawnersFromCsv
         }
 
         AssetDatabase.SaveAssets();
-        Debug.Log("İşlem tamamlandı: Master CSV'ye göre tüm sahnelere binalar ve CoinSpawner'lar eklendi.");
+        Debug.Log("İşlem tamamlandı: Tek bina olan sahnelerde bina merkezde, çoklu sahnelerde gerçek konuma yerleştirildi ve CoinSpawner'lar bağlandı.");
     }
 
     private static List<BinaKaydi> LoadMasterCsv(string path)
@@ -120,25 +222,51 @@ public static class AddCoinSpawnersFromCsv
         }
 
         var list = new List<BinaKaydi>();
-        var lines = File.ReadAllLines(path, Encoding.UTF8);
 
+        // Sistem varsayılan encoding'i – aynı BuildingPlacerFromGeoEditor mantığı
+        string[] lines = File.ReadAllLines(path, Encoding.Default);
         if (lines.Length < 2) return list;
 
-        // başlık: sahne_adi,bina_adi,prefab,csv_dosya
+        CultureInfo ci = CultureInfo.InvariantCulture;
+
+        // başlık: sahne_adi;bina_adi;prefab;csv_dosya;realX;realZ;olcek;konum
         for (int i = 1; i < lines.Length; i++)
         {
             string line = lines[i].Trim();
             if (string.IsNullOrWhiteSpace(line)) continue;
 
-            var parts = line.Split(',');
-            if (parts.Length < 4) continue;
+            var parts = line.Split(';');
+            if (parts.Length < 4) continue; // En azından ilk 4 sütun şart
+
+            string sahneAdi = parts[0].Trim();
+            string binaAdi = parts[1].Trim();
+            string prefabName = parts[2].Trim();
+            string csvDosya = parts[3].Trim();
+
+            float realX = 0f;
+            float realZ = 0f;
+
+            if (parts.Length >= 6)
+            {
+                string realXStr = parts[4].Trim();
+                string realZStr = parts[5].Trim();
+
+                if (!float.TryParse(realXStr, NumberStyles.Float, ci, out realX) ||
+                    !float.TryParse(realZStr, NumberStyles.Float, ci, out realZ))
+                {
+                    Debug.LogWarning($"AddCoinSpawnersFromCsv: Satır {i + 1} realX/realZ parse edilemedi: {realXStr}, {realZStr}");
+                    // Parse edilemese de kaydı ekliyoruz ama realX/realZ = 0 olarak kalacak
+                }
+            }
 
             list.Add(new BinaKaydi
             {
-                SahneAdi = parts[0].Trim(),
-                BinaAdi = parts[1].Trim(),
-                PrefabName = parts[2].Trim(),
-                CsvDosya = parts[3].Trim()
+                SahneAdi = sahneAdi,
+                BinaAdi = binaAdi,
+                PrefabName = prefabName,
+                CsvDosya = csvDosya,
+                RealX = realX,
+                RealZ = realZ
             });
         }
 
@@ -157,7 +285,7 @@ public static class AddCoinSpawnersFromCsv
             if (name == key) return path;
         }
 
-        // sonra içinde geçen (Scene_canakkale gibi)
+        // sonra içinde geçen (örn: Terrain_canakkale vs.)
         foreach (var path in scenePaths)
         {
             string name = Path.GetFileNameWithoutExtension(path).ToLowerInvariant();
@@ -165,5 +293,72 @@ public static class AddCoinSpawnersFromCsv
         }
 
         return null;
+    }
+
+    /// <summary>
+    /// terrain_origins.csv içinden ilgili sahnenin originRealX / originRealZ değerlerini okur.
+    /// BuildingPlacerFromGeoEditor.TryGetTerrainOrigin ile aynı mantık.
+    /// </summary>
+    private static bool TryGetTerrainOrigin(string sceneName, out float originRealX, out float originRealZ)
+    {
+        originRealX = 0f;
+        originRealZ = 0f;
+
+        string dataFolderAbsolute = Path.Combine(Application.dataPath, "Data");
+        string terrainOriginsPath = Path.Combine(dataFolderAbsolute, TerrainOriginsCsvFileName);
+
+        if (!File.Exists(terrainOriginsPath))
+        {
+            Debug.LogError($"AddCoinSpawnersFromCsv: terrain_origins.csv bulunamadı: {terrainOriginsPath}");
+            return false;
+        }
+
+        string[] lines = File.ReadAllLines(terrainOriginsPath);
+        CultureInfo ci = CultureInfo.InvariantCulture;
+
+        for (int i = 1; i < lines.Length; i++)
+        {
+            string line = lines[i].Trim();
+            if (string.IsNullOrEmpty(line))
+                continue;
+
+            string[] parts = line.Split(new[] { ';', ',' }, StringSplitOptions.None);
+            if (parts.Length < 3)
+                continue;
+
+            string sahneAdi = parts[0].Trim();
+            if (!string.Equals(sahneAdi, sceneName, StringComparison.OrdinalIgnoreCase))
+                continue;
+
+            if (!float.TryParse(parts[1].Trim(), NumberStyles.Float, ci, out originRealX) ||
+                !float.TryParse(parts[2].Trim(), NumberStyles.Float, ci, out originRealZ))
+            {
+                Debug.LogError($"AddCoinSpawnersFromCsv: '{sceneName}' için origin değerleri parse edilemedi: {line}");
+                return false;
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    /// <summary>
+    /// Yerleştirilen binaları tutmak için sahne içinde bir root obje oluşturur/bulur.
+    /// (Binalar_<sahne_adi>)
+    /// </summary>
+    private static GameObject GetOrCreateRootObject(Scene scene, string activeSceneName)
+    {
+        string rootName = $"Binalar_{activeSceneName}";
+
+        foreach (GameObject go in scene.GetRootGameObjects())
+        {
+            if (go.name == rootName)
+                return go;
+        }
+
+        GameObject root = new GameObject(rootName);
+        SceneManager.MoveGameObjectToScene(root, scene);
+        return root;
     }
 }

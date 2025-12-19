@@ -1,0 +1,451 @@
+fileFormatVersion: 2
+guid: f732b4a4b13a31a41b3eefccc2e6a08d
+SketchUpImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AlemHilal
+    second: {fileID: 2100000, guid: c29613bca355e72488d5d9c0e2390328, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: AnaKapi
+    second: {fileID: 2100000, guid: 5de74a244cede5348af8c1d8e8899a02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye#1
+    second: {fileID: 2100000, guid: d02a4468d1ef73741be40a02c0a28d85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye#3
+    second: {fileID: 2100000, guid: f1513432a7841d7448ece4eaf27bf1eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye#4
+    second: {fileID: 2100000, guid: 742004492ad88d24a98d1d3e60a212a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye#6
+    second: {fileID: 2100000, guid: 0b1957735c8345c4e8cd9f84d0e1fcf7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4274#1
+    second: {fileID: 2100000, guid: 600a94aae4f14c74a985351af45497d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319#1
+    second: {fileID: 2100000, guid: 9b22b3f4def88d7479262c4d5951125a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319#2
+    second: {fileID: 2100000, guid: c131e7532fabdc24ca5f2df5ed4a8250, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319#3
+    second: {fileID: 2100000, guid: fb5817da1825f2848b130912b88ee60f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319#4
+    second: {fileID: 2100000, guid: 8f109eac9c0252445ad1cf3a0453b2fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4322#1
+    second: {fileID: 2100000, guid: 8ca3a99629a41174888b54f47026e10e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4323
+    second: {fileID: 2100000, guid: c748d21c3490c2d4e9532a7f37e79c9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4325#2
+    second: {fileID: 2100000, guid: 0be4472d2135b1043b8d33a22387b21e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4370#1
+    second: {fileID: 2100000, guid: ab9f104646311bf469ceaafc17a00269, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390#1
+    second: {fileID: 2100000, guid: 5c845a4c5a12c8a478bca0e42103a4d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390#2
+    second: {fileID: 2100000, guid: 620759004f4da344cb344d5a448f5aae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390#3
+    second: {fileID: 2100000, guid: 9c76e06e49e7a04479ec3c62d9823f3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IMG_4392#1
+    second: {fileID: 2100000, guid: a735455d387fb904d8353fefacc95c9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KubbeyukYanKapi
+    second: {fileID: 2100000, guid: a6c8c33b4b1c0374eb37ca0c737c9d37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: KubbeyukYanKapili
+    second: {fileID: 2100000, guid: 11e19dcc3b00be24e9b8df0a9b27826d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mermer
+    second: {fileID: 2100000, guid: 747f5a2e2044bab428b81de558897055, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SacakAltiPencereTaci
+    second: {fileID: 2100000, guid: b372a0ebc63631642896c9363940acad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YanEnustSira
+    second: {fileID: 2100000, guid: 6f58e1e973ed6b54d9a43e09d2728d10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: YanUstKat
+    second: {fileID: 2100000, guid: a6e44ab38cf670745b9ec4629742b664, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing_Shingles_Wood]'
+    second: {fileID: 2100000, guid: c88d897a58146c3449b78cc84dcc13e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing_Slate_Dark]'
+    second: {fileID: 2100000, guid: 4c4d079c88e56cf47b0b188e50feeaab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: '[Roofing_Slate_Tan]'
+    second: {fileID: 2100000, guid: 2e2ce3e0849e7f34f8a6e79f342d8aa6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _LightGray_
+    second: {fileID: 2100000, guid: f156a3301264f46409db5bdf1f168ec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: _defaultMat
+    second: {fileID: 2100000, guid: 8352bef558bac194d815dd0cff833e70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: minareSerefeustu
+    second: {fileID: 2100000, guid: 51eaa082e5b861a439bd8244447d097f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: minaregovde
+    second: {fileID: 2100000, guid: e635fc3766fa1ae4682e64d9ebda55bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "minarekap\u0131s\u0131"
+    second: {fileID: 2100000, guid: 11c384d7b30cde74aac419525b4d9460, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: sonCemaatPencere
+    second: {fileID: 2100000, guid: f227469fc2b9f254fb579917244d60e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soncemaat_yazisolaAit
+    second: {fileID: 2100000, guid: 0db965f8ad98f9443961f044c7dfa45d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: soncemaatensol
+    second: {fileID: 2100000, guid: e8ac4091a100575448b29ad0b2eaf580, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: "soncemaatkap\u0131solu"
+    second: {fileID: 2100000, guid: 3a366576f54d9b74ba0113d921d50c34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: tasduvarDeseni
+    second: {fileID: 2100000, guid: 57d4ab429075e9a45a3df615d9bf2b6f, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: AltOnsag_tint0xD8BBA0FF
+    second: {fileID: 2800000, guid: dea9133e0b9242045bba565f5102952a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye
+    second: {fileID: 2800000, guid: 50c202c603aa98641a2ea752265d7b02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: GoogleMuradiye#2
+    second: {fileID: 2800000, guid: 5f726b309e2c0d74e9f388d532d6d780, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4274
+    second: {fileID: 2800000, guid: b96cbb29b2d436e448258eb49a37d2f0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4276
+    second: {fileID: 2800000, guid: 1bca3177c49728a4688884f9838f54e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4276#6
+    second: {fileID: 2800000, guid: 3539fb892f2a7bb4f89e6613ddc39e19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4282
+    second: {fileID: 2800000, guid: 63cb3130ca8ab634d9eaf01b1f86a93e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4296
+    second: {fileID: 2800000, guid: 227ed849aae6d4640abaf53f7c8004e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4304
+    second: {fileID: 2800000, guid: 97aa98c72cbdede429e2ed83538565bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4305#1
+    second: {fileID: 2800000, guid: 43aa691822349254782f33004b40a1a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4307
+    second: {fileID: 2800000, guid: 3f991949d5ea92a40a6c11889218d0fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4308
+    second: {fileID: 2800000, guid: 64d87b26630d0eb4bba772b1f32b1a76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319
+    second: {fileID: 2800000, guid: 6834968f3b0fd2946a1e2753ad2a1bf4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4319#1
+    second: {fileID: 2800000, guid: 64e8346213f35e242b95faa6bec34833, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4322
+    second: {fileID: 2800000, guid: 40b3518dbaf2bcf4ab5d772349110405, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4323
+    second: {fileID: 2800000, guid: 7a6822117cfec474fabe5f06fca3e444, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4324
+    second: {fileID: 2800000, guid: 1d85dfd199e131649b5de6bfa7afd2f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4325
+    second: {fileID: 2800000, guid: c7d10dfa7d3ebd74c91a6ae9b437bc81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4325#1
+    second: {fileID: 2800000, guid: 3c4c4880a12ea2b45bed8fe9990d2ca5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4370
+    second: {fileID: 2800000, guid: 31eb728ee278ace4a8fa72cdefb99d94, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390
+    second: {fileID: 2800000, guid: 4b239191730ced64f94eedd272e7c41c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390#1
+    second: {fileID: 2800000, guid: a1706120ec875c54381a49035c97a950, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4390#2
+    second: {fileID: 2800000, guid: b7a4ce221156a6b46b260e79c3368813, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4392
+    second: {fileID: 2800000, guid: 59a072aaaede22542a90749cc3326a66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: IMG_4412
+    second: {fileID: 2800000, guid: c6192fa7022ffd7418100b247ab651ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: KubbeyukYanKapili
+    second: {fileID: 2800000, guid: 85aaced66d793764abe659d3a125886a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Shingles_Wood_tint0xBCB3A5FF
+    second: {fileID: 2800000, guid: df98570aa3bc7ba41b62e63a03d2cc6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Slate_Dark_tint0x877E78FF
+    second: {fileID: 2800000, guid: c03a1a81a947dd34b8d3289b0e5361f1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_Slate_Tan
+    second: {fileID: 2800000, guid: 54d7905efe980a14d8b0ab322bc180f7, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.0254
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  generateBackFace: 1
+  mergeCoplanarFaces: 0
+  selectedNodes: 0000000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 8debb49fe7069f4f20930cf1993349aa
+  fileUnit: 0

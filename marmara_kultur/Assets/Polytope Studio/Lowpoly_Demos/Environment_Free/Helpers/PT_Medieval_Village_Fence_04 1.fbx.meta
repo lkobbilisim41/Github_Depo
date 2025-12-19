@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 219c43989b05efe45902cfab51fe16e7
+guid: fae1e260fe6764d4294c4ab57fdf218b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -105,3 +105,11 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 187052
+  packageName: Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
+  packageVersion: 1.1
+  assetPath: Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/PT_Medieval_Village_Fence_04
+    1.fbx
+  uploadId: 633845
