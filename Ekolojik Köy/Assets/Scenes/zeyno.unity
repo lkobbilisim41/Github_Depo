@@ -1805,7 +1805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 2080157527}
-  buildDistance: 3
+  buildDistance: 5
   collectibleManager: {fileID: 1061706577}
 --- !u!4 &1053796876
 Transform:
@@ -2002,7 +2002,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1972432505}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.9999624
+  m_Size: 0.9999946
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2791,7 +2791,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0.0000033610365}
+  m_AnchoredPosition: {x: 0, y: 0.00046878634}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1706127022
@@ -3141,9 +3141,9 @@ MonoBehaviour:
   foodType: {fileID: 11400000, guid: df708aee2ce19264baeab4bad13e8ea5, type: 2}
   pollutionType: {fileID: 11400000, guid: 8049a1722927b2847b7e2efc1edfd65b, type: 2}
   loseFoodAt: 0
-  losePollutionAt: 50
+  losePollutionAt: 25
   drainFoodOverTime: 1
-  foodDrainPerSecond: 0.02
+  foodDrainPerSecond: 0.1
   resources:
   - type: {fileID: 11400000, guid: 9d18982cb77051444be6cd9852a3e506, type: 2}
     amount: 0
@@ -3154,8 +3154,6 @@ MonoBehaviour:
   - type: {fileID: 11400000, guid: ebcdc6bfdc1d8f247a9824f2882da6c7, type: 2}
     amount: 0
   - type: {fileID: 11400000, guid: 6f95d54a9765f5c46929f481dbab6ced, type: 2}
-    amount: 0
-  - type: {fileID: 11400000, guid: 4137bb21625719a40a393f8dc1142211, type: 2}
     amount: 0
   - type: {fileID: 11400000, guid: 4137bb21625719a40a393f8dc1142211, type: 2}
     amount: 0
